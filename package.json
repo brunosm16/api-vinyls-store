@@ -1,12 +1,33 @@
 {
   "name": "api-vinyl-store",
   "version": "1.0.0",
-  "description": "Vinyls Store API",
-  "main": "server.js",
+  "description": "- API to a vinyls store implemented using Node/Mongo.",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.7.1",
+    "prettier-eslint-cli": "^6.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'src/**/*.js' --fix",
+    "format": "prettier-eslint 'server/**/*.{js,json}' --write"
+  },
+  "repository": {
+    "type": "git"
   },
   "keywords": [],
-  "author": "Bruno Silveira",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunosm16/api-vinyls-store/issues"
+  },
+  "homepage": "https://github.com/brunosm16/api-vinyls-store#readme"
 }
