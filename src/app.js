@@ -1,5 +1,3 @@
-const express = require('express');
-
-const app = express();
+const app = require('./setup/initMiddlewares');
 
 module.exports = app;
