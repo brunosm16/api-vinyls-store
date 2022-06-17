@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/brunosm16/api-vinyls-store/issues"
   },
-  "homepage": "https://github.com/brunosm16/api-vinyls-store#readme"
+  "homepage": "https://github.com/brunosm16/api-vinyls-store#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
