@@ -1,0 +1,12 @@
+{
+  "name": "api-vinyl-store",
+  "version": "1.0.0",
+  "description": "Vinyls Store API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bruno Silveira",
+  "license": "ISC"
+}
